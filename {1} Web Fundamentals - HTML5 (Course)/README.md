@@ -24,4 +24,4 @@ The course focuses on <b>HTML and CSS practical exercises</b> that involve you i
 </ul>
 
 <h2>Certificate</h2>
-<a href="https://softuni.bg/certificates/details/19638/6d756e19" target="_blank"><img src="http://i.imgur.com/8fTWYaZ.png" /></a>
+<a href="https://softuni.bg/certificates/details/21427/c1cb5e34" target="_blank"><img src="https://i.imgur.com/WUUlKzy.png" /></a>
