@@ -1,0 +1,7 @@
+tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	border-style: groove;
+	border-collapse: collapse;
+	border-color: #c6c7cc;
+}

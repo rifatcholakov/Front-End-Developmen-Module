@@ -1,0 +1,205 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,800";
+
+body {
+  background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+nav {
+  background: #eff4f7;
+  margin: 40px;
+  position: relative;
+  z-index: 5;
+  height: 72px;
+}
+
+nav ul {
+  padding: 20px 20px 0 20px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-bottom: 34px;
+  box-sizing: border-box;
+  border: 2px solid #eff4f7;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #70e9ff;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a4a8a9;
+  padding-bottom: 34px;
+}
+
+nav::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.red-logo {
+  position: absolute;
+  z-index: 0;
+  top: -10px;
+  left: 550px;
+  background: #ea3d51;
+  width: 90px;
+  height: 90px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.red-logo h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900px;
+  letter-spacing: 10px;
+  color: #fff;
+  margin-top: 78px;
+}
+
+main {
+  background: #cbd0d9;
+  width: 80%;
+  margin: 125px auto;
+}
+
+main > header {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.book-title {
+  position: relative;
+  z-index: 10;
+  color: #121f25;
+  font-size: 54px;
+}
+
+.book-genre {
+  position: relative;
+  z-index: 3;
+  top: -40px;
+  left: 80px;
+  color: #6dffb8;
+  font-size: 120px;
+}
+
+.review {
+  position: absolute;
+  top: -135px;
+  left: 300px;
+  z-index: 8;
+  margin: 0 auto;
+  color: #fff;
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+}
+
+.review img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+.review p:last-of-type::after {
+  content: ' " ';
+  color: #af213d;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.review p:first-of-type::before {
+  content: ' " ';
+  color: #af213d;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.review p:first-of-type {
+  font-size: 25px;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.review button {
+  background: none;
+  border: 3px solid #70ecff;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  padding: 10px 25px;
+  margin-top: 10px;
+}
+
+.review button:hover {
+  background: #70ecff;
+  border-color: #70ecff;
+  color: #348098;
+  cursor: pointer;
+}
+
+main section {
+  position: relative;
+  z-index: 4;
+  background: #fff;
+  margin: 50px;
+  padding: 250px 35px 35px 35px;
+}
+
+main section h1 {
+  color: #46ee97;
+  font-size: 42px;
+  text-transform: capitalize;
+}
+
+main > section p {
+  width: 70%;
+  margin: 10px 0;
+}
+
+main > section p:nth-of-type(2) {
+  padding-left: 40px;
+}
+
+main > section button {
+  background: none;
+  border: 3px solid #628291;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333;
+  padding: 10px 25px;
+  margin: 10px 0;
+}
+
+main section button:hover {
+  background: #628291;
+  cursor: pointer;
+  color: #6dffb8;
+}
+
+.bottom {
+  margin-top: 150px;
+}
+
+main > section {
+  margin-top: 200px;
+}

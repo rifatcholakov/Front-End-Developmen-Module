@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px 0;
+    border-radius: 50px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.ball:nth-of-type(1) {
+    background: #ff005d;
+    animation-timing-function: ease;
+
+}
+
+.ball:nth-of-type(2) {
+    background: #35ff99;
+    animation-timing-function: ease-in;
+}
+
+.ball:nth-of-type(3) {
+    background: #008597;
+    animation-timing-function: ease-out;
+}
+
+.ball:nth-of-type(4) {
+    background: #ffcc00;
+    animation-timing-function: ease-in-out;
+}
+
+.ball:nth-of-type(5) {
+    background: #2d3443;
+    animation-timing-function: linear;
+}
+
+.ball:nth-of-type(6) {
+    background: #ff7c35;
+    animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.ball:nth-of-type(7) {
+    background: #4d407c;
+    animation-timing-function: steps(4, end);
+}
+
+
+@keyframes bounce {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: calc(100% - 20px);
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}

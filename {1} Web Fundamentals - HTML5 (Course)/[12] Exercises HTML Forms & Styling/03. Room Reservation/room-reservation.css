@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+html {
+    background: #EBEBEB;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    background: #F1F1F1;
+    border-bottom: dashed 1px #d7d7d7;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #4C9EE3;
+    padding: 30px 5px;
+    font-weight: normal;
+}
+
+section {
+    margin-top: 30px;
+    border-bottom: dashed 1px #d7d7d7;
+}
+
+section h3 {
+    font-size: 16px;
+}
+
+section p {
+    display: inline-block;
+    width: 70%;
+}
+
+section#top-section form {
+    display: inline-block;
+    width: 20%;
+    color: #000;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label#search-form {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    height: 25px;
+}
+
+section#bottom-section form {
+    width: 45%;
+    display: inline-block;
+}
+
+section#bottom-section input {
+    display: inline-block;
+}
+
+form#personal-details {
+    vertical-align: top;
+}
+
+form#personal-details input {
+    display: block;
+    margin: 10px;
+    width: 200px;
+    padding: 3px;
+}
+
+form#reservation div {
+    display: inline-block;
+    width: 200px;
+
+}
+
+form#reservation div.check-x {
+    display: inline-block;
+    width: 240px;
+}
+
+form#reservation div.check-x input {
+    display: inline-block;
+    width: 209px;
+}
+
+form#reservation select {
+    width: 300px;
+}
+
+section#button-section {
+    height: 60px;
+    border: none;
+}
+
+section#button-section button {
+    width: 140px;
+    height: 30px;
+    background: #32A2E4;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+section#button-section button:hover{
+    background: #3BBC96;
+    cursor: pointer;
+}

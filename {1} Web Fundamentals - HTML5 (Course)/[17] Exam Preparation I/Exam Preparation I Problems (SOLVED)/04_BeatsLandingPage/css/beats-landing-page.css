@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul li a,
+.wireless h1,
+.wireless button {
+  text-transform: uppercase;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+header ul li a:hover {
+  color: #000;
+  border-bottom: 2px solid #aaa;
+}
+
+.wireless {
+  height: 100vh;
+  position: relative;
+}
+
+.wireless img {
+  margin-top: 50px;
+  float: right;
+  width: 550px;
+}
+
+.wireless-info {
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
+
+.wireless h1 {
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.wireless p {
+  width: 450px;
+}
+
+.wireless button {
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 35px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.powerbeats {
+  background: #FBFCFF;
+  height: 100vh;
+  position: relative;
+}
+
+.powerbeats img {
+  height: 600px;
+  float: left;
+  position: absolute;
+  bottom: 30px;
+}
+
+.powerbeats h1,
+.powerbeats span {
+  text-transform: uppercase;
+}
+
+.powerbeats h1 {
+  font-weight: lighter;
+  font-size: 72px;
+  float: right;
+  margin-right: 170px;
+  position: relative;
+}
+
+.powerbeats .title {
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+}
+
+.powerbeats .title > span {
+  font-weight: bold;
+}
+
+.powerbeats p {
+  width: 390px;
+  position: absolute;
+  top: 240px;
+  right: 200px;
+}
+
+.powerbeats .price {
+  position: absolute;
+  bottom: 140px;
+  right: 450px;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.powerbeats button {
+  text-transform: uppercase;
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 35px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 150px;
+  right: 270px;
+}
+
+.trial {
+  background-color: #575757;
+  position: relative;
+  height: 280px;
+}
+
+.trial img {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+.trial img,
+.trial h1 {
+  display: inline-block;
+}
+
+.trial h1,
+.more {
+  text-transform: uppercase;
+  color: white;
+}
+
+.trial h1 {
+  font-weight: lighter;
+  margin-left: 30px;
+  position: absolute;
+  top: 60px;
+}
+
+.free,
+.more {
+  font-weight: bold;
+}
+
+.more {
+  text-align: center;
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 26px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.beats-red {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.beats-red #girl {
+  width: 50%;
+}
+
+.beats-red h1,
+.red {
+  text-transform: uppercase;
+}
+
+.beats-red h1 {
+  color: #313131;
+  font-size: 172px;
+  letter-spacing: -15px;;
+  position: absolute;
+  left: 50px;
+  top: -90px;
+  line-height: 190px;
+}
+
+.beats-red .subheading {
+  position: absolute;
+  bottom: 160px;
+  left: 80px;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.beats-red .red {
+  color: red;
+  font-weight: bold;
+}
+
+.beats-red #headphones {
+  float: right;
+  margin-top: 30px;
+}
+
+.beats-right-side {
+  display: inline-block;
+  background: #DADADA;
+  position: relative;
+  width: 50%;
+}
+
+footer {
+  height: 10vh;
+}
+
+footer span {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+  font-size: 20px;
+}

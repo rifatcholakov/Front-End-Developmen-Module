@@ -1,0 +1,89 @@
+div{
+    display: inline-block;
+    margin: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    transition: all 900ms;
+    top: 100px;
+    overflow: hidden;
+}
+.card:hover {
+    z-index: 20;
+}
+
+#slide-up .card:hover .back-side,
+#slide-left .card:hover .back-side {
+    z-index: 10;
+}
+
+.front-side {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #234465;
+    z-index: 5;
+    -webkit-transition: 300ms ease-in;
+}
+
+.back-side {
+    width: 200px;
+    height: 200px;
+    background: #ffa000;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+#slide-up .card:hover .front-side{
+    height:250px;
+    margin-top: -30px;
+}
+
+#slide-up .back-side {
+    transform: translateY(200px);
+    transition: transform linear 0.3s;
+}
+
+#slide-up .card:hover .back-side {
+    transform: translateY(0);
+}
+
+#slide-down .front-side {
+    transition: transform linear 0.3s;
+}
+
+#slide-down .card:hover .front-side {
+    transform: translateY(200px);
+}
+
+#slide-left .card:hover .front-side{
+    width: 250px;
+    margin-left: 0px;
+}
+
+#slide-left .back-side {
+    transform: translateX(200px);
+    transition: transform linear 0.3s;
+}
+
+#slide-left .card:hover .back-side {
+    transform: translateY(0);
+}
+
+#slide-right .front-side {
+    transition: transform linear 0.3s;
+}
+
+#slide-right .card:hover .front-side {
+    transform: translateX(200px);
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px "Open Sans", Arial, sans-serif; "Comfortaa", sans-serif;
+  background-color: #f7f4f4;
+  color: #333;
+}
+
+aside {
+  float: left;
+  background: #fff;
+  width: 25%;
+  min-height: 945px;
+  height: 100%;
+  text-align: center;
+}
+
+aside h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: normal;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: "Comfortaa", sans-serif;
+}
+
+aside img {
+  border-radius: 50%;
+  max-width: 125px;
+  max-height: 125px;
+  display:block;
+  height: auto;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+aside h2 {
+  text-transform: uppercase;
+  color: #b1bfc6;
+  font-weight: normal;
+  font-size: 1.20em;
+  margin: 3% auto;
+}
+
+aside ul {
+  list-style-type: none;
+  color: #b1bfc6;
+  text-transform: uppercase;
+  font-size: 1.05em;
+  text-align: left;
+  margin-top: 10%;
+}
+
+aside ul li {
+  padding: 5% 0;
+}
+
+aside ul li a i {
+  margin-right: 2%;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #b1bfc6;
+  letter-spacing: 2px;
+  padding: 5%;
+}
+
+aside ul li:hover a{
+  color: #333;
+  border-left: 2px solid #ff7739;
+}
+
+main h1 {
+  margin-left: 30%;
+  padding-top: 3%;
+  font-weight: lighter;
+  font-size: 2.5em;
+}
+
+main h1 span{
+  color: #91a5af;
+}
+
+main > button {
+  float: right;
+  margin-top: -3%;
+  margin-right: 7%;
+  background: #ff7739;
+  border: 3px solid #ff7739;
+  border-radius: 30px;
+  padding: 9px 15px;;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+main > button > i {
+  margin-left: 5px;;
+}
+
+main > button:hover {
+  background: transparent;
+  border: 3px solid #ff7739;
+  color: #ff7739;
+}
+
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 31%;
+  margin-top: 4%;
+}
+
+.description {
+  margin-left: 31%;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+
+main section {
+  margin-right: 5%;
+}
+
+main section:last-of-type {
+  margin-top: 27%;
+  margin-bottom: 25%;
+}
+
+.transparent-block {
+  position: absolute;
+  left: -19px;
+  background: rgba(255,255,250,0.26);
+  width: 300px;
+  height: 280px;
+}
+
+.box {
+  margin-top: 3%;
+  margin-right: 3%;
+  float: right;
+  width: 260px;
+  height: 280px;
+  background: #fff;
+  position: relative;
+  box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+.box img {
+  height: auto;
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+  margin-top: -83px;
+}
+
+main > section > div > button {
+  background-color: #91A5AE;
+  color: #fff;
+  border: 1px solid #91A5AE;
+  border-radius: 20px;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 28%;
+  left: -7%;
+}
+
+.box-description {
+  position: absolute;
+  bottom: 18%;
+  text-transform: capitalize;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.box-unit {
+  position: absolute;
+  bottom: 8%;
+  margin-left: 5%;
+  text-transform: capitalize;
+}
+
+.listed {
+  background: #68bc69;
+}

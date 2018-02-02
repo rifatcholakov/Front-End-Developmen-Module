@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background: #222;
+}
+
+main {
+  background: url('images/food-image-bg.png') no-repeat;
+  margin: 50px auto;
+  width: 960px;
+  height: 680px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+h1,
+div.recipies-info {
+  float: right;
+}
+
+h1 {
+  margin-right: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+h1:after,
+ul:after,
+div.recipies-info:after,
+button:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.recipies-info {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.recipies-info p {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.recipies-info span {
+  color: #b5c640;
+    font-weight: bold;
+}
+
+button {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  background: none;
+  border: 3px solid #fff;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b5c640;
+  border: 3px solid #b5c640;
+}
+
+ul {
+  width: 550px;
+  float: right;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.prep-steps .step {
+  margin-top: 15px;
+  font-size: 12px;
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  margin: 10% auto 2% auto;
+  padding: 1%;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  text-align: center;
+  width: 800px;
+  color: #9470DC;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+main {
+  margin: 0 auto;
+  width: 800px;
+}
+
+article {
+  margin: 1% 1%;
+  float: left;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: #EEEEED;
+  width: 168px;
+  height: auto;
+}
+
+.circle {
+  position: relative;
+  margin: 0 auto;
+  height: 170px;
+  width: 170px;;
+  background-color: #9470DC;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.circle:hover p {
+  color: #9470DC;
+}
+
+.circle > p {
+  position: absolute;
+  top: 55px;
+  left: 75px;
+  color: #fff;
+  font-size: 48px;
+}
+
+article > p {
+  text-align: center;
+  color: #BBBFBF;
+  padding: 10%;
+  font-size: 12px;
+}
+
+button {
+  border: 1px solid #DDDDDD;
+  background: #DDDDDD;
+  text-transform: capitalize;
+  padding: 8%;
+  border-radius: 10px;
+  width: 165px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+}

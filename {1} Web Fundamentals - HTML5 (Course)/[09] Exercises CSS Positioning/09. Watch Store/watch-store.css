@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lemon', Arial, cursive, serif;
+  background: #602C74;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+main {
+  width: 900px;
+  background: #FEAD38;
+  margin: 4% auto;
+  border-radius: 30px;
+  padding: 3%
+}
+
+article {
+  margin: 0 auto;
+  display: inline-block;
+  margin:1% 7% 1% 0;
+  width: 220px;
+  background: #602C74;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+article:first-of-type {
+  margin-left: 4.6%;
+}
+
+.price {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  padding: 4%;
+}
+
+.guarantee {
+  color: #FEAD38;
+  text-align: center;
+  padding: 2%;
+}
+
+img {
+  margin-left: 3%;
+  width: 195px;
+  border-radius: 50%;
+  border: 5px solid #746A83;
+}
+
+ul {
+  margin: 1% 0% 10% 9%;
+}
+
+ul li {
+  list-style-type: none;
+  color: #fff;
+}
+
+button {
+  font-family: 'Lemon', Arial, cursive, serif;
+  margin: 0 7% 6% 7%;
+  background: #fff;
+  color: #602C74;
+  font-size: 15px;
+  padding: 6px 20%;
+  border-radius: 20px;
+  cursor: pointer;
+}

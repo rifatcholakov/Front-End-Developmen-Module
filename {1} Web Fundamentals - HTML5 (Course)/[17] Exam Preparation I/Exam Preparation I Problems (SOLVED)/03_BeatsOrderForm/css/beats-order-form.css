@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to right, #14343f 0%,#5f666e 100%);
+}
+
+main {
+  width: 900px;
+  height: 500px;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 5%;
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: -5px;
+  left: 90px;
+  height: 540px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 650;
+  color: #9E9E9E;
+  text-align: right;
+  width: 400px;
+  float: right;
+  margin-right: 50px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #7F7F7F;
+}
+
+form {
+  float: right;
+  width: 500px;
+}
+
+.input {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  font-size: 32px;
+  width: 180px;
+  margin: 10px 30px;
+  color: #6d6d6d;
+}
+
+input {
+  border: none;
+  background: none;
+  margin-left: 20px;
+  font-size: 14px;
+  width: 110px;
+}
+
+.card-name {
+  display: block;
+  width: 180px;
+}
+
+input[type = "submit"] {
+  background-color: #545E67;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  float: right;
+  margin-right: 65px;
+}

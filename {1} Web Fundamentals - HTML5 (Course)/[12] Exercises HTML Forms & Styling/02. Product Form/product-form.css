@@ -1,0 +1,125 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+@import "https://fonts.googleapis.com/css?family=Anton";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font: 14px 'Lato', sans-serif;
+  background: #ccc;
+}
+
+main {
+  width: 960px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 0 rgba(84, 196, 156, 1);
+  height: 450px;
+}
+
+.product-image,
+.order-info {
+  display: inline-block;
+  vertical-align: top;
+  display: table-cell;
+}
+
+.product-image {
+  position: relative;
+  background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+  width: 300px;
+  height: 450px;
+}
+
+.product-image img,
+.product-image {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.product-image img {
+  position: absolute;
+  top: 50%;
+  margin-top: -145px;
+}
+
+.order-info header {
+  font-family: Anton, sans-serif;
+}
+
+.order-info {
+  width: 640px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.order-info header h1,
+.order-info header h4 {
+  margin: 10px 0;
+}
+
+.order-info header h1 {
+  font-size: 30px;
+}
+
+.order-info header h4 {
+  color: #333;
+  font-size: 20px;
+}
+
+.order-info input,
+.order-info select {
+  width: 150px;
+  padding-left: 5px;
+  margin-left: 20px;
+}
+
+.order-info label,
+.order-info input {
+  display: block;
+}
+
+.order-info label {
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.order-info select {
+  border: 0;
+  background: #42c9ca;
+  color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.order-info input {
+  color: #42c9ca;
+  border: 0;
+  outline: none;
+  background: none;
+  border-bottom: 3px solid #42c9ca;
+}
+
+.order-info input[type="submit"] {
+  border: 3px solid #42c9ca;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 40px 10px 20px 10px;
+}
+
+.order-info input[type="submit"]:hover {
+  cursor: pointer;
+  background: #42c9ca;
+  color: #fff;
+}

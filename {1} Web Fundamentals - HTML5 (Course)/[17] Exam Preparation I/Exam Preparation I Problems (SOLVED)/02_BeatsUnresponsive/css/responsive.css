@@ -1,0 +1,36 @@
+@media all and (max-width: 640px) {
+  ul {
+    flex-wrap: wrap;
+  }
+
+  li {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-item > a {
+    margin-right: 0;
+  }
+
+  .solo {
+    text-align: center;
+  }
+
+  .second-row {
+    flex-direction: column;
+  }
+
+  .mixr-left, .urbeats-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .studio {
+    text-align: center;
+  }
+
+  .product-img {
+    max-width: 49%;
+  }
+}

@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #234465;
+    min-width: 800px;
+    min-height: 400px
+}
+
+.flat-anim {
+    display: block;
+    width: 264px;
+    height: 265px;
+    background-color: #ecf0f1;
+    border-radius: 42px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -132px 0 0 -132px;
+
+    animation: flatAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.flat-anim:before {
+    content: "";
+    background-color: #e67e22;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.flat-anim:after {
+    content: "";
+    background-color: #68b5f1;
+    width: 48px;
+    height: 24px;
+    border-radius: 10px;
+    position: absolute;
+    top: 17px;
+    right: 22px;
+}
+
+.bottom {
+    width: 264px;
+    height: 112px;
+    display: block;
+    z-index: 10;
+    background-color: #e67e22;
+    border-radius: 0 0 38px 38px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 15px solid #dd660e;
+    -webkit-box-shadow: inset 0 -20px 0 0 #db640e;
+}
+
+.bottom:before {
+    content: "";
+    background-color: #282e3a;
+    width: 140px;
+    height: 30px;
+    display: block;
+    margin: 14px auto 0 auto;
+}
+
+.bottom:after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 84px;
+    width: 96px;
+    height: 70px;
+    display: block;
+    background-color: #ecf0f1;
+    -webkit-box-shadow: 0 14px 0 0 #db640e,
+    0 -16px 0 0 #c3d1dd;
+    -moz-box-shadow: 0 14px 0 0 #db640e,
+    0 -16px 0 0 #c3d1dd;
+    box-shadow: 0 14px 0 0 #db640e,
+    0 -16px 0 0 #c3d1dd;
+}
+
+.eye {
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    background-color: #243e6e;
+    display: block;
+    margin: 60px auto 0;
+    z-index: 20;
+    position: relative;
+    -webkit-box-shadow: 0 0 0 22px #3e5489,
+    0 0 0 30px #1c3666,
+    0 0 0 45px #ecf0f1,
+    0 10px 0 45px rgba(0, 0, 0, 0.2);
+}
+
+.eye:before {
+    content: "";
+    background-color: #a3bfd5;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+.eye:after {
+    content: "";
+    background-color: #6078a3;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+@keyframes flatAnimation {
+    0% {
+        transform: scale(0.2);
+        transform: rotate(45deg);
+    }
+    13% {
+        transform: scale(0.5);
+    }
+    20% {
+        transform: scale(0.7);
+        transform: rotate(15deg);
+    }
+    95% {
+        transform: scale(1.3);
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.eye,
+.flat-anim:before,
+.flat-anim:after {
+    animation-name: eyeAnimation;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes eyeAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+        visibility: visible;
+    }
+    12% {
+        opacity: 0;
+        visibility: visible;
+    }
+    13% {
+        opacity: 1;
+        visibility: visible;
+    }
+    20% {
+        opacity: 1;
+        visibility: visible;
+    }
+    25% {
+        transform: scale(2);
+        visibility: visible;
+    }
+    95% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+
+    }
+}
+
+@keyframes bottomAnimation {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    21% {
+        opacity: 0;
+
+    }
+    22% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        width: 35px;
+        margin-right: 105px;
+    }
+    26% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+        width 150px;
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 140px;
+    }
+}
+
+.bottom::before {
+    animation-name: bottomAnimation;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.bottom::after {
+    animation-name: bottomAfterAnimation;
+    animation-duration: 0.5s    ;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes bottomAfterAnimation {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    26% {
+        opacity: 1;
+    }
+    26% {
+        opacity: 1;
+    }
+    28% {
+        opacity: 1;
+    }
+    28% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        height: 70px;
+    }
+}

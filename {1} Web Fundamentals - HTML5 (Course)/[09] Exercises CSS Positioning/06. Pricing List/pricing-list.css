@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+header h1 {
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-family: 'Vollkorn', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #45494A;
+}
+
+main article {
+  position: relative;
+  display: inline-block;
+  width: 31.3%;
+  height: 550px;
+  padding: 0;
+  margin: 0 auto;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+main article:last-of-type {
+  margin-right: 0;
+}
+
+main article h2 {
+  text-transform: capitalize;
+  text-align: center;
+  background: #EBEFF2;
+  padding: 30px;
+  color: #45494A;
+}
+
+main article p {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  color: #45494A;
+}
+
+main article:hover h2 {
+  background: #61CBDA;
+  cursor: pointer;
+}
+
+main article:hover p.price {
+  color: #61CBDA;
+}
+
+main article ul {
+  list-style-type: none;
+}
+
+main article ul li {
+  font-family: 'Vollkorn', serif;
+  color: #45494A;
+  border-bottom: solid 1px lightgray;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main article button {
+  background: #DDDDDD;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  position: absolute;
+  top: 88%;
+  left: 10%;
+}
+
+main article:hover button {
+  background: #61CBDA;
+  cursor: pointer;
+}
